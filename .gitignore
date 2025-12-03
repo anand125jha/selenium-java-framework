@@ -1,0 +1,94 @@
+# Maven target directory
+/target/
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Test reports & screenshots
+/test-output/
+/screenshots/
+
+# WebDriver binaries (if downloaded locally)
+chromedriver.exe
+geckodriver.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# Environment files
+*.env
+
+# Local config
+config.properties
+# Maven target directory
+/target/
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Test reports & screenshots
+/test-output/
+/screenshots/
+
+# WebDriver binaries (if downloaded locally)
+chromedriver.exe
+geckodriver.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# Environment files
+*.env
+
+# Local config
+config.properties
