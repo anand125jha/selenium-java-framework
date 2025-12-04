@@ -1,5 +1,8 @@
 package drivers;
 import io.github.bonigarcia.wdm.WebDriverManager;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +14,7 @@ public class DriverFactory {
 		WebDriverManager.chromedriver().setup();
 		driver.set(new ChromeDriver());
 		driver.get().manage().window().maximize();
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
 	public static WebDriver getDriver() {
