@@ -32,7 +32,7 @@ Thumbs.db
 # Test reports & screenshots
 /test-output/
 /screenshots/
-
+/reports/
 # WebDriver binaries (if downloaded locally)
 chromedriver.exe
 geckodriver.exe
