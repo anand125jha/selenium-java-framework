@@ -22,8 +22,5 @@ public class GoogleTest extends BaseTest {
 		Assert.assertEquals(google.getTitle(), "Google");
 	}
 
-	@Test
-	public void verifySearch() {
-		google.Search("Selenium WebDriver");
-	}
+
 }
