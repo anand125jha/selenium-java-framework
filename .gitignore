@@ -44,7 +44,7 @@ msedgedriver
 *.env
 
 # Local config
-config.properties
+
 # Maven target directory
 /target/
 
@@ -89,6 +89,3 @@ msedgedriver
 
 # Environment files
 *.env
-
-# Local config
-config.properties
