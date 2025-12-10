@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 import drivers.DriverFactory;
+import utils.ConfigReader;
 
 public class GooglePage {
 	private WebDriver driver;
@@ -19,7 +20,7 @@ public class GooglePage {
 	}
 	
 	public void open() {
-        driver.get("https://www.google.com");
+        driver.get(ConfigReader.getProperty("baseUrl"));
     }
 	
 	public void Search(String query) {

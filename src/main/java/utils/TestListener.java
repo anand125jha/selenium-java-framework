@@ -48,6 +48,11 @@ public class TestListener extends BaseTest implements ITestListener{
     }
 
     @Override
+    public void onTestSkipped(ITestResult result) {
+        extentTest.get().log(Status.SKIP, "Test Skipped");
+    }
+
+    @Override
     public void onFinish(ITestContext context) {
         extent.flush();
     }
